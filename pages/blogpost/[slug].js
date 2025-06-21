@@ -1,8 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { useRouter } from 'next/router';
 import styles from '../../styles/BlogPost.module.css'
-
-import { useRouter } from 'next/router';
 const slug = () => {
     const [blog,setBlog] = useState();
     const router = useRouter();
